@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sbg"
+    tools:context=".playActivity">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/G2"
+            android:layout_weight="03"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="SEARCH PANDA"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <Button
+            android:id="@+id/G3"
+            android:layout_weight="03"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="QUICK PANDA"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_weight="03"
+            android:layout_height="113dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:text="BACK"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hungry Panda</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="play">play</string>
+    <string name="settings">settings</string>
+    <string name="exit">exit</string>
+</resources>

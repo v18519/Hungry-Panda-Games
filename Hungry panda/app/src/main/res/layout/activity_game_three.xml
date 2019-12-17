@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg"
+    tools:context=".game_three">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pandaoneside" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="35dp"
+            android:text="START" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageViewx"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bamboo"
+            android:layout_above="@id/imageView"/>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bamboo"
+            android:layout_alignParentBottom="true"/>
+        <TextView
+            android:id="@+id/countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="150dp"
+            android:textColor="#FF0000"
+            android:layout_centerInParent="true"
+            tools:text="3" />
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="R" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="35dp"
+            android:layout_alignParentRight="true"
+            android:text="BACK" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/pandatwoside"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
